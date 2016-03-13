@@ -13,3 +13,7 @@
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 —-> Branches are useful in situations where you want to make changes but keep the master branch intact, like if you wanted to add an experimental feature. The branch keeps its own history of commits from the point of split. It’s convenient if you intend to stay on this ‘branch’ of your project for a while because you have a relevant name with which to refer to your master and your branch when switching, rather than being identified by long non-meaningful commit IDs.
+
+5. How do the diagrams help you visualize the branch structure?
+
+—-> I can see the points (commits) at which each branch branches off into its own line, and the lines that they follow from that point onwards. 
