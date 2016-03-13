@@ -1,0 +1,7 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+—-> “git init” creates a .git file in the current directory, which tracks changes and history of the files you want git to track in the directory.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+—-> The staging area is middle ground between your working directory and the repository where you can parse out which files will be added to the repository in the next commit. This allows you to flexibility to structure your commits instead of adding all files at once.
