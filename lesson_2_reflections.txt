@@ -16,4 +16,8 @@
 
 5. How do the diagrams help you visualize the branch structure?
 
-—-> I can see the points (commits) at which each branch branches off into its own line, and the lines that they follow from that point onwards. 
+—-> I can see the points (commits) at which each branch branches off into its own line, and the lines that they follow from that point onwards.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+—-> Merging the two branches together combines the files in each branch and sets a commit at the point where those branches combine, with that commit being parented by the end of both branches (2 parents). In the graph the branches maintain their individual line of commits before combining because those commits still exist and are integrated into the history of the branch they are being merged into.
