@@ -9,3 +9,7 @@
 3. How can you use the staging area to make sure you have one commit per logical change?
 
 —-> You can structure what files changes are going to be included in each commit to ensure that the commit makes sense and there is only one commit per logical change instead of multiple disparate changes from committing all file changes at once.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+—-> Branches are useful in situations where you want to make changes but keep the master branch intact, like if you wanted to add an experimental feature. The branch keeps its own history of commits from the point of split. It’s convenient if you intend to stay on this ‘branch’ of your project for a while because you have a relevant name with which to refer to your master and your branch when switching, rather than being identified by long non-meaningful commit IDs.
