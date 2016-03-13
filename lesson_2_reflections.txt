@@ -21,3 +21,7 @@
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 —-> Merging the two branches together combines the files in each branch and sets a commit at the point where those branches combine, with that commit being parented by the end of both branches (2 parents). In the graph the branches maintain their individual line of commits before combining because those commits still exist and are integrated into the history of the branch they are being merged into.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+—-> Automatic merging saves you a lot of time in terms of comparing multiple versions of a file and creating a combined file from them than if you had to do each process manually. However a machine conducts the evaluation and so it can’t make always judgement calls to resolve some conflicts in a way that makes sense.
