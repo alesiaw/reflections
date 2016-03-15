@@ -9,3 +9,6 @@
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 —-> If the last known state of the remote is stored locally, you can access it offline without having to query GitHub for it every time you want to view its commits up to that point.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+—-> Without Git or Github, collaboration for me personally would probably be done through shared Dropbox files or Google Drive. It would be easier because there isn’t such a steep learning curve as there is with Git and Github, especially with command-line Git, and your files would be saved automatically. However, Git and Github gives you much finer control over what you share and how you share it, regarding forks, branches, and the fine-tuned aspects of its manual version-control, and since it’s optimized for code, actually merging your collaborations with other people is either done automatically for you, or seeing what has changed is highlighted much more visibly.
