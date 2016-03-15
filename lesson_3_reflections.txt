@@ -1,0 +1,2 @@
+1. When would you want to use a remote reposity rather than keeping all your work local?
+-- > Remote repositories are handy whenever you want to store your repo somewhere outside of your local machine, access it from another machine, and/or collaborate with another person and make those files accessible to them.
